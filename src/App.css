@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.item.completed h1,
+.item.completed h3 {
+  text-decoration: line-through;
+}
+
