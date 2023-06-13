@@ -1,0 +1,106 @@
+/* Define the styles for the section */
+.section {
+    padding: 20px;
+    background-color: #ffdfb3;
+  }
+  
+  /* Define the styles for the form */
+  .form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form input[type="text"],
+  .form input[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .form input[type="submit"] {
+    background-color: #ff8c00;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .form input[type="submit"]:hover {
+    background-color: #ff5500;
+  }
+  
+  /* Define the styles for the item */
+  .item {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .item h3 {
+    font-size: 18px;
+    color: #888;
+  }
+  
+  .item.completed h1 {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 24px;
+    color: #888;
+    margin-top: 20px;
+  }
+  
+  /* Add summer color theme */
+  .section {
+    background-color: #ffdfb3;
+  }
+  
+  .form input[type="text"] {
+    background-color: #fff;
+    border: 1px solid #ff8c00;
+  }
+  
+  .form input[type="submit"] {
+    background-color: #ff8c00;
+    color: #fff;
+    border: none;
+  }
+  
+  .form input[type="submit"]:hover {
+    background-color: #ff5500;
+  }
+  
+  .item {
+    background-color: #fff;
+    border: 1px solid #ff8c00;
+  }
+  
+  .item h1 {
+    color: #333;
+  }
+  
+  .item.completed h1 {
+    color: #888;
+    text-decoration: line-through;
+  }
+  
+  /* Add graphics */
+  .section {
+    background-image: linear-gradient(to bottom right, #ffdfb3, #ffd180);
+  }
+  
+  .item {
+    position: relative;
+  }
+  
+  

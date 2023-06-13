@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './index.css'; // Import the CSS file
 
 const Index = (props) => {
   const [newForm, setNewForm] = useState({
@@ -38,24 +39,24 @@ const Index = (props) => {
   // data isn't loaded
   const loading = () => {
     console.log('in loading');
-    return <h1>Loading...</h1>;
+    return <h1 className="loading">Loading...</h1>;
   };
 
   return (
-    <section>
-      <form onSubmit={handleSubmit}>
+    <section className="section">
+      <form className="form" onSubmit={handleSubmit}>
         <input
           type="text"
           value={newForm.title}
           name="title"
-          placeholder="title"
+          placeholder="Title"
           onChange={handleChange}
         />
         <input
           type="text"
           value={newForm.description}
           name="description"
-          placeholder="description"
+          placeholder="Description"
           onChange={handleChange}
         />
         <input type="submit" value="Create Todo" />

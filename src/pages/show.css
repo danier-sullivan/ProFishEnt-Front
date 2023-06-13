@@ -1,0 +1,57 @@
+/* Define the styles for the Show page */
+.show {
+    padding: 20px;
+    background-color: #ffdfb3;
+  }
+  
+  .show h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .show h2 {
+    font-size: 18px;
+    color: #888;
+  }
+  
+  .show form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .show form input[type="text"],
+  .show form input[type="checkbox"],
+  .show form input[type="submit"],
+  .show form button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .show form input[type="checkbox"] {
+    margin-left: 5px;
+  }
+  
+  .show form input[type="submit"] {
+    background-color: #ff8c00;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .show form input[type="submit"]:hover {
+    background-color: #ff5500;
+  }
+  
+  .show form button {
+    background-color: #ff5500;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .show form button:hover {
+    background-color: #ff3300;
+  }
+  
